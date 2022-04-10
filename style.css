@@ -13,14 +13,15 @@ a {
 body {
   font-family: serif;
   font-size: 14px;
-  color: navy;
+  color: #000000;
+  background-color: #ffffff;
 }
 
 h1 {
   font-size: 2em;
   font-weight: 700;
   color: #ffc;
-  background-color: #009;
+  background-color: navy;
 }
 
 h2 {
@@ -28,6 +29,11 @@ h2 {
   font-style: italic;
   background-color: #ccc;
   margin: 20px;
+  border-style: dashed;
+  border-width: 3px;
+  border-color: red;
+  border-left-width: 10px;
+  border-right-width: 10px;
   padding: 40px;
 }
 
