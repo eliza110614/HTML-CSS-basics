@@ -1,17 +1,33 @@
 p {
-    color: red;
+  color: red;
+  letter-spacing: 0.5em;
+  word-spacing: 1.5em;
+  line-height: 1.5;
+  text-align: center;
 }
 
 a {
-    color: blue;
+  color: blue;
 }
 
 body {
-    font-size: 14px;
-    color: navy;
+  font-family: serif;
+  font-size: 14px;
+  color: navy;
 }
 
 h1 {
+  font-size: 2em;
+  font-weight: 700;
   color: #ffc;
   background-color: #009;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+strong {
+  text-transform: uppercase;
 }
