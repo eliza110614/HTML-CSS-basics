@@ -62,7 +62,6 @@ strong {
 li {
   color: #900;
   font-style: italic;
-  display: inline;
 }
 
 table {
@@ -104,4 +103,31 @@ input:focus, textarea:focus {
 p:first-child {
   font-weight: bold;
   font-size: 40px;
+}
+
+p:first-letter {
+  font-size: 24px;
+  float: left;
+}
+
+p:first-line {
+  font-weight: none;
+}
+
+blockquote-before {
+  content: open-quote;
+}
+
+blockquote-after {
+  content: close-quote;
+}
+
+li:before {
+  content: "POW! ";
+  background: red;
+  color: #fc0;
+}
+
+p:before {
+  content: url(images/jam.jpg);
 }
